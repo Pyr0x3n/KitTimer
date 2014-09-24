@@ -1,0 +1,9 @@
+name: KitTimer
+author: Pyr0x3n 
+version: 1.1
+main: com.Pyr0x3n.KitTimer.Main
+description: Remove Bought kits from Libs hungergames databases after a number of days specified in the config.yml.
+commands:
+   RemoveKits:
+      description: remove all kits from a player with a given uuid
+      usage: /<command><playerUUID>

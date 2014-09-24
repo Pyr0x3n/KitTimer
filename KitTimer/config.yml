@@ -1,0 +1,14 @@
+# mysql setup
+
+# this is the database where you store kits from Lib's Hungergames
+mysql_database: yourLibsHungergamesDBHere
+mysql_host: 127.0.0.1
+mysql_port: 3306
+mysql_password: yourDBPasswordHere
+mysql_username: yourDBUserName
+# this is the tables where you store kits from Lib's Hungergames, it should be HGKits by default, but check it!
+mysql_table: HGKits
+
+# remove all older kits bought X days before today
+numberOfDays: 30
+
